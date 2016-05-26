@@ -1,0 +1,8 @@
+name: FCommandeer
+main: net.foreverplay.forevercommandeer.ForeverCommandeer
+version: 1.0
+
+commands:
+    commandeer:
+        description: 'Main command for ForeverCommandeer'
+        aliases: [fcommandeer]

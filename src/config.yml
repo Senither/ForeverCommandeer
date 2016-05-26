@@ -1,0 +1,30 @@
+
+# Configuration documentation can be found on the git repo
+# https://bitbucket.org/foreverplay/forevercommandeer
+
+commands:
+    test-help:
+        trigger: '/test-command'
+        aliases:
+            - '/test'
+            - '//test'
+        instructions:
+            - 'message |> &2[&aTest Command &2: &aHelp Menu&2]'
+            - 'message |> &2/&atest-command hello'
+            - 'message |> &2/&atest-command op'
+    test-hello:
+        trigger: '/test-command hello'
+        aliases:
+            - '/test hello'
+            - '//test hello'
+        instructions:
+            - 'chat |> Hello world!'
+    test-op:
+        trigger: '/test-command op'
+        aliases:
+            - '/test op'
+            - '//test op'
+        instructions:
+            - 'message |> &2[&aOP&2] &aYou''re about to OP Notch!'
+            - 'command |> op Notch'
+        
