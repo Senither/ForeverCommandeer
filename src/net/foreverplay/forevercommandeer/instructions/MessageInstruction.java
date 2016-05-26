@@ -21,8 +21,6 @@ public class MessageInstruction extends Instruction
     @Override
     public void execute(Player player)
     {
-        System.out.println("Message " + formatInstruction());
-
         player.sendMessage(formatInstruction());
     }
 }

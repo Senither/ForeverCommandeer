@@ -14,8 +14,6 @@ class NullInstruction extends Instruction
     @Override
     public void execute(Player player)
     {
-        System.out.println("Null: " + formatInstruction());
-
         // This does nothing...
     }
 }

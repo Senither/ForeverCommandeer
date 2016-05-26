@@ -14,8 +14,6 @@ public class CommandInstruction extends Instruction
     @Override
     public void execute(Player player)
     {
-        System.out.println("Command: " + formatInstruction());
-
         plugin.getServer().dispatchCommand(player, formatInstruction());
     }
 }

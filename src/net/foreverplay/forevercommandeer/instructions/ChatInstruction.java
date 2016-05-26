@@ -14,7 +14,6 @@ public class ChatInstruction extends Instruction
     @Override
     public void execute(Player player)
     {
-        System.out.println("Chat: " + formatInstruction());
         player.chat(formatInstruction());
     }
 }
